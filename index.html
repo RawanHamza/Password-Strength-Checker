@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+          <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="css/style.css">
+  </head>
+   <body>
+  <main class="sign-up-mypassword">
+          <div class="regular-way">
+              
+              <h1>Sign Up</h1>
+          <input type="text" placeholder="Username" required>
+          <hr>
+          <input type="email" placeholder="E-mail" required>
+          <hr>
+          <input id="mypassword" type="password" placeholder="Password" required>
+          <hr>
+          <input id='passwordconfirm' type="password" placeholder="Retype Password" required>
+              <div class="msg"></div>
+  
+          <hr>
+          <p>Passwords must contain:</p>
+          <ul class="password-list">
+              <!--
+              <li id="letter" ><i class="fas fa-circle"></i> A minimum of 1 letter.</li>
+              <li id="number"><i class="fas fa-circle"></i> A minimum of 1 numeric character [0-9].</li>
+              <li id="length"><i class="fas fa-circle"></i>Password should be more than 8 characters</li>
+  -->
+      <li><span  id="letter"></span>A lower case letter.</li>
+              <li> <span  id="capital"></span> An upper case letter.</li>
+              <li> <span  id="number"></span> A minimum of 1 numeric character.</li>
+              <li><span  id="length"></span> Password should be more than 8 characters</li>
+              <li><span  id="msg"></span> Password should be the same.</li>
+          </ul>
+          <button class="sign-up-btn" type="submit">Sign Up</button>
+                  
+          </div>
+          <div class="or"><p>OR</p></div>
+          <div class="social-way">
+          <h1 class="social-h1">Sign in with Social Network</h1>
+              <div class="btn">
+              <button class="facebook">Log in with Facebook</button>
+              <button class="twitter">Log in with Twitter</button>
+              <button class="google">Log in with Google</button> </div>
+          </div>
+          </main>
+        </body>
+        <script src="js/app.js"></script>
+        </html>

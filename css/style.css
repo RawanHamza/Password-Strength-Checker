@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+  }
+  
+              
+  body {
+    margin: 0px;
+      font-family: 'Roboto';
+  }
+              .sign-up-mypassword{
+                  position: absolute;
+          width:80%;
+          left:10%;
+          display: flex;
+                  box-shadow: -4px 2px 6px 3px #00000036;
+                  height: 100%;
+          margin:2% 0;
+              }
+              .regular-way{
+                  padding-top: 20px;
+                  padding-left: 20px;
+                  background-color: #fff;
+                  width: 50%;
+                  color: #464646;
+              }
+              .regular-way h1{
+                  margin-bottom: 30px;
+              }
+              .regular-way input{
+                  border:none;
+                  font-size: 15px;
+              }
+              
+              .regular-way input:focus{
+                  outline: none;
+              }
+          
+              .regular-way .password-list{
+                  list-style: none;
+                  margin-left: -25px;
+              }
+              .password-list li{
+                  padding-bottom: 8px;
+              }
+              .password-list li i{
+                  font-size: 15px;
+                  color: #000;
+              }
+              .sign-up-btn{
+                  width: 30%;
+                  margin-left: 35%;
+                  font-size: 15px;
+                  color: #fff;
+                  border: none;
+                  background-color: #e24e25;
+                  line-height: 29px;
+                  border-radius: 6px;
+              }
+              .or{
+                  position: relative;
+                  top: 45%;
+                  left: 2.5%;
+                  background-color:#f4eb80d4;
+                  color: #464646;
+                  width: 35px;
+                  height: 35px;
+                  text-align: center;
+                  border-radius: 50%;
+              }
+              .or p{
+                  margin-top: 8px;
+              }
+              .social-way{
+                  padding-top: 20px;
+                  background-image: linear-gradient(-45deg, #5159ca , #f7d836 ,#55b9d0);
+                  width: 50%;
+                  padding-left: 20px;
+                  text-align: center;
+              }
+              .social-way h1{
+                  color: #fff;
+                  text-shadow: 2px 2px #00000040;
+              }
+              .social-way .btn{
+                  padding-top: 40px;
+                  padding-left: 15%;
+              }
+              .social-way button{
+                  display: block;
+                  text-align: center;
+                  width: 80%;
+                  margin-bottom: 20px;
+                  height: 36px;
+                  color: #fff;
+                  font-size: 16px;
+                  border:none;
+                  border-radius: 6px;
+              }
+              .social-way button:focus{
+                  outline: none;
+              }
+              .social-way .btn .facebook{
+                  background-color: #466fdc;
+              }.social-way .btn .twitter{
+                  background-color: #1da1f2;
+              }.social-way .btn .google{
+                  background-color: #e24e25;
+              }
+              button{
+                  cursor: pointer;
+              }
+              .valid {
+                color: green;
+              }
+  
+              .valid:before {
+                position: relative;
+                left: -15px;
+                content: "\f111";
+                  font-family:'Font Awesome 5 Free';
+              }
+  
+              .invalid {
+                color: red;
+              }
+  
+              .invalid:before {
+                position: relative;
+                left: -15px;
+                content: "\f111";
+                font-family: 'Font Awesome 5 Free';
+              }
+              @media screen and (max-width: 776px){
+                  .sign-up-mypassword{
+                  top: 0;
+                  left:5px;
+                  display: flex;
+            flex-direction:column;
+                  height: auto;
+            height:auto;
+              }
+          .regular-way, .social-way{
+            width:auto;
+            margin:0px;
+            padding:20px;
+          }
+                  .sign-up-btn{
+                  width: 50%;
+                  margin-left: 0;
+                  }
+                  .social-way button{
+            width: 80%;
+                  }
+          .or{
+            left:45%;
+            margin:15px 0;
+            top:0;
+          }
+              }
